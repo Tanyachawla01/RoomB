@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdminLogin">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:background="@drawable/trans_white_rectangle"
+        android:layout_gravity="center">
+
+        <AutoCompleteTextView
+            android:id="@+id/adminloginid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Admin Id"
+            android:background="@drawable/rounded_white"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/adminloginpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:background="@drawable/rounded_white"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"/>
+        <Button
+            android:id="@+id/userloginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/holo_orange_light"
+            android:enabled="true"
+            android:text="Login"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>

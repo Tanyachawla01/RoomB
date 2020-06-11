@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AllRooms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/trans_white_rectangle"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/Roomno"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Room No"
+            android:drawableLeft="@drawable/ic_key"
+            android:background="@drawable/rounded_white"
+            android:drawablePadding="5dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/roomCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Room Capacity"
+            android:background="@drawable/rounded_white"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/Softwarewquipment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:background="@drawable/rounded_white"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Software Equipment"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/Hardwarequipment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Hardware Equipment"
+            android:background="@drawable/rounded_white"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/orangerounded"
+            android:text="Delete"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/orangerounded"
+            android:text="Edit"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>

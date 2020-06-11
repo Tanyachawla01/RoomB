@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/first"
+            android:title="All Rooms"/>
+
+        <item android:id="@+id/second"
+            android:title="Add Rooms"
+            android:icon="@drawable/ic_addroom"
+            android:iconTint="@color/black"/>
+
+        <item android:id="@+id/third"
+            android:title="Available Rooms"/>
+
+        <item android:id="@+id/fourth"
+            android:title="Booked Rooms"/>
+
+        <item android:id="@+id/fifth"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

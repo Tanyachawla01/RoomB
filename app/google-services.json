@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "451687371607",
+    "firebase_url": "https://roomb-f6ef2.firebaseio.com",
+    "project_id": "roomb-f6ef2",
+    "storage_bucket": "roomb-f6ef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451687371607:android:3d756f6be1fbac27bbe412",
+        "android_client_info": {
+          "package_name": "com.example.roomb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451687371607-ss8cja8b8cl6nmf6ca099vlu98nh09p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnfQBmNOgiKCqoJU-njkOxOMtp_ggQjN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451687371607-ss8cja8b8cl6nmf6ca099vlu98nh09p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

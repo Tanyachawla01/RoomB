@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationgraph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.roomb.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/editRoomDetailsFragment"
+        android:name="com.example.roomb.EditRoomDetailsFragment"
+        android:label="fragment_edit_room_details"
+        tools:layout="@layout/fragment_edit_room_details" />
+    <fragment
+        android:id="@+id/allRoomsFragment"
+        android:name="com.example.roomb.AllRoomsFragment"
+        android:label="fragment_all_rooms"
+        tools:layout="@layout/fragment_all_rooms" />
+    <fragment
+        android:id="@+id/addRoomsFragment"
+        android:name="com.example.roomb.AddRoomsFragment"
+        android:label="fragment_add_rooms"
+        tools:layout="@layout/fragment_add_rooms" />
+    <fragment
+        android:id="@+id/availableRoomsFragment"
+        android:name="com.example.roomb.AvailableRoomsFragment"
+        android:label="fragment_available_rooms"
+        tools:layout="@layout/fragment_available_rooms" />
+    <fragment
+        android:id="@+id/bookedRoomsFragment"
+        android:name="com.example.roomb.BookedRoomsFragment"
+        android:label="fragment_booked_rooms"
+        tools:layout="@layout/fragment_booked_rooms" />
+</navigation>
